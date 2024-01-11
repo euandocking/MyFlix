@@ -1,0 +1,31 @@
+load('videos.json')
+db.videos.find()
+myflix.videos.find()
+videos.find()
+db.videos.find()
+load('videos.json')
+use myflix
+exiy
+db.videos.find()
+db.videos.insertOne({ "name": "Northern shovelers spinning in Prospect Park", "description": "Northern shovelers (Spatula clypeata) spinning in the Prospect Park Lake in Brooklyn, NY. They do this, sometimes in pairs and sometimes in very large groups, to bring food up to the surface for them to skim. The males (drakes) have an iridescent green head, white breast, and chestnut belly/flanks; the females are brown overall.", "category": "Animals", "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Northern_shovelers_spinning_in_Prospect_Park.webm/Northern_shovelers_spinning_in_Prospect_Park.webm.1080p.vp9.webm" })
+db.videos.insertMany([{ "_id": { "$oid": "659f38e496a2afc31190d95c" }, "name": "Northern shovelers spinning in Prospect Park", "description": "Northern shovelers (Spatula clypeata) spinning in the Prospect Park Lake in Brooklyn, NY. They do this, sometimes in pairs and sometimes in very large groups, to bring food up to the surface for them to skim. The males (drakes) have an iridescent green head, white breast, and chestnut belly/flanks; the females are brown overall.", "category": "Animals", "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Northern_shovelers_spinning_in_Prospect_Park.webm/Northern_shovelers_spinning_in_Prospect_Park.webm.1080p.vp9.webm" }, { "_id": { "$oid": "659f38e496a2afc31190d95d" }, "name": "Mating dragonflies - nosound - stabilized", "description": "Mating dragonflies.", "category": "Animals", "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e2/Mating_dragonflies_-_nosound_-_stabilized.webm/Mating_dragonflies_-_nosound_-_stabilized.webm.360p.vp9.webm" }, { "_id": { "$oid": "659f38e496a2afc31190d95e" }, "name": "02-Grey Squirrel 2021-09-13 nX2", "description": "Eastern grey squirrel (Sciurus carolinensis) in Norfolk, UK. The 14 November 2021 upload is 60 fps whilst the earlier 22 October 2021 version is identical except it is only 30 fps.", "category": "Animals", "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4a/02-Grey_Squirrel_2021-09-13_nX2.webm/02-Grey_Squirrel_2021-09-13_nX2.webm.1080p.vp9.webm" }, { "_id": { "$oid": "659f38e496a2afc31190d95f" }, "name": "Cicada Final Molt and Darkening timelapse 14 2021-05-27", "description": "A time-lapse video of the final molt of a Brood X cicada. This time-lapse was taken over a period of about 4.5 hours one night, One picture every 10 seconds. The cicada emerges from its exoskeleton, its wings unfurl, then it darkens from the pale yellow that it initally is to black.", "category": "Animals", "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/Cicada_Final_Molt_and_Darkening_timelapse_14_2021-05-27.webm/Cicada_Final_Molt_and_Darkening_timelapse_14_2021-05-27.webm.1080p.vp9.webm" }, { "_id": { "$oid": "659f38e496a2afc31190d960" }, "name": "Starship SN8 launch render", "description": "An illustration of Starship SN8 launch if successful. It starts with a launch to about 10km, belly flop, and do an aggressive landing maneuver. Starship SN9, 10, 11, and 15 did basically this flight profile like this.", "category": "Astronomy", "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/Starship_SN8_launch_render.webm/Starship_SN8_launch_render.webm.1080p.vp9.webm" }, { "_id": { "$oid": "659f38e496a2afc31190d961" }, "name": "Perseverance Rover's Descent and Touchdown on Mars Onboard Camera Views", "description": "NASA's Mars 2020 Perseverance mission captured thrilling footage of its rover landing in Mars' Jezero Crater on Feb. 18, 2021. The real footage in this video was captured by several cameras that are part of the rover's entry, descent, and landing suite. The views include a camera looking down from the spacecraft's descent stage (a kind of rocket-powered jet pack that helps fly the rover to its landing site), a camera on the rover looking up at the descent stage, a camera on the top of the aeroshell (a capsule protecting the rover) looking up at that parachute, and a camera on the bottom of the rover looking down at the Martian surface.", "category": "Astronomy", "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0d/Perseverance_Rover%27s_Descent_and_Touchdown_on_Mars_Onboard_Camera_Views_.webm/Perseverance_Rover%27s_Descent_and_Touchdown_on_Mars_Onboard_Camera_Views_.webm.1080p.vp9.webm" }, { "_id": { "$oid": "659f38e496a2afc31190d962" }, "name": "SpaceX's first reused Crew Dragon Endeavour, docks at International Space Station (ISS) - 25544U", "description": "SpaceX's first reused Crew Dragon docks at space station with four Crew-2 astronauts", "category": "Astronomy", "url": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8d/SpaceX%27s_first_reused_Crew_Dragon_Endeavour%2C_docks_at_International_Space_Station_%28ISS%29_-_25544U.webm/SpaceX%27s_first_reused_Crew_Dragon_Endeavour%2C_docks_at_International_Space_Station_%28ISS%29_-_25544U.webm.480p.vp9.webm" }])
+use myflix
+show collections
+db.videos.find()
+use myflix
+exi
+db.videos.find()
+use myflix
+db.videos.find()
+show collections
+use myflix
+db.getUsers()
+use myflix
+use admin
+db.getUsers()
+use myflixixx)
+use myflix db: "myflix" }] })
+use myflixyflix" }] })
+use myflix})
+use myflixyflix" }] })
+use myflixlixix

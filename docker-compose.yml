@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+  myflix-mongodb:
+    image: mongo
+    container_name: myflix-mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data:/data/db
+      - ./init-scripts:/docker-entrypoint-initdb.d
+
+  myflix-node:
+    build:
+      context: ./myflix-node
+    container_name: myflix-node
+    depends_on:
+      - myflix-mongodb
+    environment:
+      MONGODB_URI: "mongodb://yourUsername:yourPassword@myflix-mongodb:27017/myflix"
+    ports:
+      - "5000:5000"
+
+  myflix-react:
+    build:
+      context: ./myflix-react
+    container_name: myflix-react
+    ports:
+      - "3000:3000"
