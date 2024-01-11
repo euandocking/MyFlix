@@ -15,7 +15,7 @@ services:
 
   myflix-node:
     build:
-      context: ./myflix-node
+      context: ./MyFlix-Node
     container_name: myflix-node
     depends_on:
       - myflix-mongodb
@@ -26,7 +26,7 @@ services:
 
   myflix-react:
     build:
-      context: ./myflix-react
+      context: ./MyFlix-React
     container_name: myflix-react
     ports:
       - "3000:3000"
