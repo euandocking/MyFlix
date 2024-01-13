@@ -28,7 +28,7 @@ services:
     build:
       context: ./MyFlix-React
     container_name: myflix-react
-    environment:
-      REACT_APP_API_URL: "http://34.224.24.225:5000"
+    env_file:
+    - ./init-scripts/.env
     ports:
       - "3000:3000"
