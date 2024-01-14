@@ -21,6 +21,8 @@ jobs:
       - name: Build and Push Docker Images
         run: |
           echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
+          git clone https://github.com/euandocking/MyFlix-Node.git
+          git clone https://github.com/euandocking/MyFlix-React.git
           docker-compose build
           docker-compose push
         env:
