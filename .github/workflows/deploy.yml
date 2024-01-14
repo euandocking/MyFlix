@@ -17,15 +17,12 @@ jobs:
 
       - name: Checkout Repository
         uses: actions/checkout@v2
-
-      - name: Docker Compose Action
-        uses: isbang/compose-action@v1.5.1
       
       - name: Build and Push Docker Images
         run: |
           echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin
-          docker-compose build
-          docker-compose push
+          docker compose build
+          docker compose push
         env:
           DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
           DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
